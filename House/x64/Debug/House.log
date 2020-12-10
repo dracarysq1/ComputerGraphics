@@ -1,0 +1,78 @@
+﻿  main.cpp
+c:\users\gamegeng\desktop\house\house\main.cpp(80): warning C4838: 从“double”转换到“GLfloat”需要收缩转换
+c:\users\gamegeng\desktop\house\house\main.cpp(351): warning C4838: 从“double”转换到“GLfloat”需要收缩转换
+  particle.cpp
+  texture.cpp
+  正在生成代码...
+main.obj : error LNK2019: 无法解析的外部符号 __imp_glBegin，该符号在函数 "void __cdecl Before_back(float,float,float,float,float,float,float)" (?Before_back@@YAXMMMMMMM@Z) 中被引用
+particle.obj : error LNK2001: 无法解析的外部符号 __imp_glBegin
+main.obj : error LNK2019: 无法解析的外部符号 __imp_glBindTexture，该符号在函数 "void __cdecl display(void)" (?display@@YAXXZ) 中被引用
+particle.obj : error LNK2001: 无法解析的外部符号 __imp_glBindTexture
+texture.obj : error LNK2001: 无法解析的外部符号 __imp_glBindTexture
+main.obj : error LNK2019: 无法解析的外部符号 __imp_glClear，该符号在函数 "void __cdecl display(void)" (?display@@YAXXZ) 中被引用
+main.obj : error LNK2019: 无法解析的外部符号 __imp_glClearColor，该符号在函数 "void __cdecl init(void)" (?init@@YAXXZ) 中被引用
+main.obj : error LNK2019: 无法解析的外部符号 __imp_glEnable，该符号在函数 "void __cdecl display(void)" (?display@@YAXXZ) 中被引用
+particle.obj : error LNK2001: 无法解析的外部符号 __imp_glEnable
+main.obj : error LNK2019: 无法解析的外部符号 __imp_glEnd，该符号在函数 "void __cdecl Before_back(float,float,float,float,float,float,float)" (?Before_back@@YAXMMMMMMM@Z) 中被引用
+particle.obj : error LNK2001: 无法解析的外部符号 __imp_glEnd
+main.obj : error LNK2019: 无法解析的外部符号 __imp_glFlush，该符号在函数 "void __cdecl display(void)" (?display@@YAXXZ) 中被引用
+main.obj : error LNK2019: 无法解析的外部符号 __imp_glGenTextures，该符号在函数 "void __cdecl loadTexture(char *,unsigned int &)" (?loadTexture@@YAXPEADAEAI@Z) 中被引用
+texture.obj : error LNK2001: 无法解析的外部符号 __imp_glGenTextures
+main.obj : error LNK2019: 无法解析的外部符号 __imp_glLightModelfv，该符号在函数 "void __cdecl lightinit(double,double)" (?lightinit@@YAXNN@Z) 中被引用
+main.obj : error LNK2019: 无法解析的外部符号 __imp_glLightf，该符号在函数 "void __cdecl display(void)" (?display@@YAXXZ) 中被引用
+main.obj : error LNK2019: 无法解析的外部符号 __imp_glLightfv，该符号在函数 "void __cdecl display(void)" (?display@@YAXXZ) 中被引用
+main.obj : error LNK2019: 无法解析的外部符号 __imp_glLoadIdentity，该符号在函数 "void __cdecl reshape(int,int)" (?reshape@@YAXHH@Z) 中被引用
+main.obj : error LNK2019: 无法解析的外部符号 __imp_glMatrixMode，该符号在函数 "void __cdecl reshape(int,int)" (?reshape@@YAXHH@Z) 中被引用
+main.obj : error LNK2019: 无法解析的外部符号 __imp_glPixelStorei，该符号在函数 "void __cdecl init(void)" (?init@@YAXXZ) 中被引用
+main.obj : error LNK2019: 无法解析的外部符号 __imp_glPopMatrix，该符号在函数 "void __cdecl display(void)" (?display@@YAXXZ) 中被引用
+particle.obj : error LNK2001: 无法解析的外部符号 __imp_glPopMatrix
+main.obj : error LNK2019: 无法解析的外部符号 __imp_glPushMatrix，该符号在函数 "void __cdecl display(void)" (?display@@YAXXZ) 中被引用
+particle.obj : error LNK2001: 无法解析的外部符号 __imp_glPushMatrix
+main.obj : error LNK2019: 无法解析的外部符号 __imp_glRotated，该符号在函数 "void __cdecl display(void)" (?display@@YAXXZ) 中被引用
+main.obj : error LNK2019: 无法解析的外部符号 __imp_glRotatef，该符号在函数 "void __cdecl display(void)" (?display@@YAXXZ) 中被引用
+particle.obj : error LNK2001: 无法解析的外部符号 __imp_glRotatef
+main.obj : error LNK2019: 无法解析的外部符号 __imp_glScalef，该符号在函数 "void __cdecl display(void)" (?display@@YAXXZ) 中被引用
+particle.obj : error LNK2001: 无法解析的外部符号 __imp_glScalef
+main.obj : error LNK2019: 无法解析的外部符号 __imp_glShadeModel，该符号在函数 "void __cdecl init(void)" (?init@@YAXXZ) 中被引用
+main.obj : error LNK2019: 无法解析的外部符号 __imp_glTexCoord2f，该符号在函数 "void __cdecl Before_back(float,float,float,float,float,float,float)" (?Before_back@@YAXMMMMMMM@Z) 中被引用
+main.obj : error LNK2019: 无法解析的外部符号 __imp_glTexEnvf，该符号在函数 "void __cdecl display(void)" (?display@@YAXXZ) 中被引用
+main.obj : error LNK2019: 无法解析的外部符号 __imp_glTexImage2D，该符号在函数 "void __cdecl loadTexture(char *,unsigned int &)" (?loadTexture@@YAXPEADAEAI@Z) 中被引用
+texture.obj : error LNK2001: 无法解析的外部符号 __imp_glTexImage2D
+main.obj : error LNK2019: 无法解析的外部符号 __imp_glTexParameteri，该符号在函数 "void __cdecl loadTexture(char *,unsigned int &)" (?loadTexture@@YAXPEADAEAI@Z) 中被引用
+texture.obj : error LNK2001: 无法解析的外部符号 __imp_glTexParameteri
+main.obj : error LNK2019: 无法解析的外部符号 __imp_glTranslated，该符号在函数 "void __cdecl display(void)" (?display@@YAXXZ) 中被引用
+main.obj : error LNK2019: 无法解析的外部符号 __imp_glVertex3f，该符号在函数 "void __cdecl Before_back(float,float,float,float,float,float,float)" (?Before_back@@YAXMMMMMMM@Z) 中被引用
+main.obj : error LNK2019: 无法解析的外部符号 __imp_glViewport，该符号在函数 "void __cdecl reshape(int,int)" (?reshape@@YAXHH@Z) 中被引用
+main.obj : error LNK2019: 无法解析的外部符号 gluPerspective，该符号在函数 "void __cdecl reshape(int,int)" (?reshape@@YAXHH@Z) 中被引用
+main.obj : error LNK2019: 无法解析的外部符号 gluLookAt，该符号在函数 "void __cdecl reshape(int,int)" (?reshape@@YAXHH@Z) 中被引用
+main.obj : error LNK2019: 无法解析的外部符号 gluNewQuadric，该符号在函数 "void __cdecl init(void)" (?init@@YAXXZ) 中被引用
+main.obj : error LNK2019: 无法解析的外部符号 gluQuadricTexture，该符号在函数 "void __cdecl display(void)" (?display@@YAXXZ) 中被引用
+main.obj : error LNK2019: 无法解析的外部符号 gluQuadricDrawStyle，该符号在函数 "void __cdecl display(void)" (?display@@YAXXZ) 中被引用
+main.obj : error LNK2019: 无法解析的外部符号 gluSphere，该符号在函数 "void __cdecl display(void)" (?display@@YAXXZ) 中被引用
+main.obj : error LNK2019: 无法解析的外部符号 glutInit，该符号在函数 main 中被引用
+main.obj : error LNK2019: 无法解析的外部符号 glutInitDisplayMode，该符号在函数 main 中被引用
+main.obj : error LNK2019: 无法解析的外部符号 glutInitWindowPosition，该符号在函数 main 中被引用
+main.obj : error LNK2019: 无法解析的外部符号 glutInitWindowSize，该符号在函数 main 中被引用
+main.obj : error LNK2019: 无法解析的外部符号 glutMainLoop，该符号在函数 main 中被引用
+main.obj : error LNK2019: 无法解析的外部符号 glutCreateWindow，该符号在函数 main 中被引用
+main.obj : error LNK2019: 无法解析的外部符号 glutPostRedisplay，该符号在函数 "void __cdecl SpecialKey(int,int,int)" (?SpecialKey@@YAXHHH@Z) 中被引用
+main.obj : error LNK2019: 无法解析的外部符号 glutSwapBuffers，该符号在函数 "void __cdecl display(void)" (?display@@YAXXZ) 中被引用
+main.obj : error LNK2019: 无法解析的外部符号 glutDisplayFunc，该符号在函数 main 中被引用
+main.obj : error LNK2019: 无法解析的外部符号 glutReshapeFunc，该符号在函数 main 中被引用
+main.obj : error LNK2019: 无法解析的外部符号 glutKeyboardFunc，该符号在函数 main 中被引用
+main.obj : error LNK2019: 无法解析的外部符号 glutMouseFunc，该符号在函数 main 中被引用
+main.obj : error LNK2019: 无法解析的外部符号 glutIdleFunc，该符号在函数 "void __cdecl keyboard(unsigned char,int,int)" (?keyboard@@YAXEHH@Z) 中被引用
+main.obj : error LNK2019: 无法解析的外部符号 glutSpecialFunc，该符号在函数 main 中被引用
+main.obj : error LNK2019: 无法解析的外部符号 glutSolidTorus，该符号在函数 "void __cdecl drawcar(void)" (?drawcar@@YAXXZ) 中被引用
+particle.obj : error LNK2019: 无法解析的外部符号 __imp_glColor3f，该符号在函数 "private: void __cdecl particle::show(void)" (?show@particle@@AEAAXXZ) 中被引用
+particle.obj : error LNK2019: 无法解析的外部符号 __imp_glDepthMask，该符号在函数 "private: void __cdecl particle::show(void)" (?show@particle@@AEAAXXZ) 中被引用
+particle.obj : error LNK2019: 无法解析的外部符号 __imp_glDisable，该符号在函数 "private: void __cdecl particle::draw(unsigned int)" (?draw@particle@@AEAAXI@Z) 中被引用
+particle.obj : error LNK2019: 无法解析的外部符号 __imp_glTexCoord2iv，该符号在函数 "private: void __cdecl particle::draw(unsigned int)" (?draw@particle@@AEAAXI@Z) 中被引用
+particle.obj : error LNK2019: 无法解析的外部符号 __imp_glTranslatef，该符号在函数 "private: void __cdecl particle::show(void)" (?show@particle@@AEAAXXZ) 中被引用
+particle.obj : error LNK2019: 无法解析的外部符号 __imp_glVertex2fv，该符号在函数 "private: void __cdecl particle::draw(unsigned int)" (?draw@particle@@AEAAXI@Z) 中被引用
+texture.obj : error LNK2019: 无法解析的外部符号 __imp_glGetIntegerv，该符号在函数 "bool __cdecl BuildTexture(char *,unsigned int &)" (?BuildTexture@@YA_NPEADAEAI@Z) 中被引用
+texture.obj : error LNK2019: 无法解析的外部符号 __imp_glTexParameterf，该符号在函数 "bool __cdecl BuildTexture(char *,struct TextureTga *)" (?BuildTexture@@YA_NPEADPEAUTextureTga@@@Z) 中被引用
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\lib\x64\opengl32.lib : warning LNK4272: 库计算机类型“x86”与目标计算机类型“x64”冲突
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\lib\x64\glu32.lib : warning LNK4272: 库计算机类型“x86”与目标计算机类型“x64”冲突
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\lib\x64\glut32.lib : warning LNK4272: 库计算机类型“x86”与目标计算机类型“x64”冲突
+C:\Users\GameGeng\Desktop\House\x64\Debug\House.exe : fatal error LNK1120: 56 个无法解析的外部命令
